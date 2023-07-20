@@ -3,9 +3,8 @@ import { name, city } from "../data/data.js";
 
 function Home() {
   // update the JSX being returned!
-  return <div id="about">
-    <h2>About Me</h2>
-    <p>Ochocinco</p>   
+  return <div id="home">
+    <h1 color="firebrick">{name} is a Web Developer from Your {city}</h1>   
   </div>;
 }
 
